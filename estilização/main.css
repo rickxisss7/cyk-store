@@ -1,0 +1,199 @@
+
+.one-product {
+    margin: 10px;
+    text-align: center;
+
+}
+
+.one-product a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.one-product img {
+    width: 70px;
+    height: 70px;
+    border-radius: 500px;
+}
+
+.one-product h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* font-family: "Open Sans", sans-serif; */
+}
+
+
+
+.promo {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: cente;
+    box-shadow: 0px 0px 2px 1px rgb(221, 221, 221);
+    
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item1 img {
+    width: 170px;
+    height: 190px;
+    border-radius: 5px;
+    max-width: 170px;
+}
+
+.item1 h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.884);
+    max-width: 260px;
+    text-align: center;
+    margin-top: 6px;
+    max-width: 170px;
+    width: 200px;
+    /* Largura máxima do nome */
+    white-space: nowrap;
+    /* Impede quebrar a linha */
+    overflow: hidden;
+    /* Esconde o texto que passa do limite */
+    text-overflow: ellipsis;
+    /* Adiciona "..." no final */
+    display: block;
+    /* Garante o comportamento esperado */
+}
+
+.item1 h5 {
+    text-decoration: line-through;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 0.795);
+}
+
+.item1 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.925);
+}
+
+
+/* mobile */
+
+.container-tshirts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+    
+}
+
+
+.container-pants {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+}
+
+.container-sets {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+}
+
+.avaliacao i {
+  color: #ffe344;
+  font-size: 13px;
+  
+}
+
+.avaliacao {
+    margin-top: 5px;
+}
+
+.nota {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    display: none;
+}
+
+.menu-interact a:hover {
+ 
+}
+
+.heart:hover {
+  
+   border-radius: 50px;
+}
+
+.hover-red:hover {
+    background-color: rgb(255, 55, 55);
+   border-radius: 10px;
+   transition: 0.3s ease;
+}
+
+/* mobile */
+
+.item1-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: cente;
+    box-shadow: 0px 0px 2px 1px rgb(221, 221, 221);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item1-mobile img {
+    width: 170px;
+    height: 190px;
+    border-radius: 5px;
+    max-width: 170px;
+}
+
+.item1-mobile h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.884);
+    max-width: 260px;
+    text-align: center;
+    margin-top: 6px;
+    max-width: 170px;
+    width: 200px;
+    /* Largura máxima do nome */
+    white-space: nowrap;
+    /* Impede quebrar a linha */
+    overflow: hidden;
+    /* Esconde o texto que passa do limite */
+    text-overflow: ellipsis;
+    /* Adiciona "..." no final */
+    display: block;
+    /* Garante o comportamento esperado */
+}
+
+.item1-mobile h5 {
+    text-decoration: line-through;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 0.795);
+}
+
+.item1-mobile p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.925);
+}

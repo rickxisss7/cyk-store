@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cyk store</title>
+  <link rel="shortcut icon" href="imagens/logo-cyk.png" type="image/x-icon">
+  <link rel="stylesheet" href="estilização/header.css">
+  <link rel="stylesheet" href="estilização/home.css">
+  <link rel="stylesheet" href="estilização/search.css">
+  <link rel="stylesheet" href="estilização/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="screens/mobile.css">
+
+
+
+</head>
+
+<body>
+  <header>
+    <h1>CYK STORE</h1>
+    <div class="header1">
+      <div class="pesq">
+        <input type="text" id="searchInput" placeholder="Pesquisar " maxlength="24">
+        <button class="botao-pesquisa"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <!-- <div class="search-container"> -->
+
+      <!-- </div> -->
+      <!-- <div id="suggestions" class="suggestions"></div> -->
+    </div>
+
+    <div class="menu-interact">
+      <a class="heart" href=""><img src="icons/heart.png" alt="" class="hover-red"></a>
+      <a href=""><img src="icons/usuario.png" alt="" class="hover-red"></a>
+      <a href=""><img src="icons/carrinho.png" alt="" class="hover-red"></a>
+    </div>
+
+  </header>
+  <p id="noResults" class="no-results" style="display:none;">Nenhum produto encontrado </p>
+  <div class="products" id="productList">
+    <!-- Produtos aparecem aqui -->
+  </div>
+
+  <script src="product.js"></script>
+
+
+  <main>
+
+
+
+    <div class="container-tshirts">
+
+      <div class="item1">
+        <img src="img-produtos/camisa redbull2.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Camisa Polo Red Bull Dry fit Monster Premium Lançamento</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/camisa boston2.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Camiseta Masculina Boston 30.1 Classico Manga Curta Verão</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/camisa la belle vie.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Manfinity EMRG Camisa Polo Masculina de Cor Sólida com Estampa de Letra Gráfica e Zíper Frontal</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/camisa paris2.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Camiseta Masculina PARIS 100% Algodão Manga Curta Gola Redonda Verão</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/camisa pavtros.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Camiseta PAVTROS Casual Masculina de Gola Careca, Manga Curta</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1-mobile">
+        <img src="img-produtos/camisa la belle vie.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Camiseta Masculina Boston 30.1 Classico Manga Curta Verão</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+    </div>
+
+
+    <div class="container-pants">
+
+      <div class="item1">
+        <img src="img-produtos/calça 2.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Calça Balão Calca Denim Masculina Bag Boca Larga Streetwear Estonada Cinza Grafite</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/calça 3.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Calça Denim Masculina Com Plus Size Skinny Direto Da Fabrica-Envio Imediato</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/calça 5.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Calça Cargo Masculino Skatista Preta Caqui e Bege Cintura Elastico</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/calça 4.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Calça Masculina Cargo Street Caqui Escuro Preta Cinza Cargo Sarja Unisex</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/calça.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Calça Denim Baggy Masculina Balão Larga Carpenter 100% algodão Tecido Premium Dazzling</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+       <div class="item1-mobile">
+        <img src="img-produtos/calça 3.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Calça Denim Masculina Com Plus Size Skinny Direto Da Fabrica-Envio Imediato</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+
+    </div>
+
+    <div class="container-sets">
+
+
+      <div class="item1">
+        <img src="img-produtos/tenis 1.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Tênis Masculino Casual Force </h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+
+      <div class="item1">
+        <img src="img-produtos/tenis 2.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Tenis Casual Nyc Shoes Lançamento</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/tenis 3.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Tênis Esportivo Casual Masculino de Cadarço Baixo com Estampa Aleatória</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/tenis 4.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Tênis Casual de Cano Baixo Masculino</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+      <div class="item1">
+        <img src="img-produtos/tenis 5.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h3>Tênis Esportivo Casual Masculino</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+        <div class="item1-mobile">
+        <img src="img-produtos/tenis 2.png" alt="">
+        <div class="avaliacao">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span class="nota">(4.3)</span>
+        </div>
+        <h3>Tenis Casual Nyc Shoes Lançamento</h3>
+        <h5>R$ 69,90</h5>
+        <p>R$ 62,91 </p>
+      </div>
+
+    </div>
+  </main>
+</body>
+
+</html>

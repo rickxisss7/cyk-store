@@ -1,0 +1,74 @@
+@media (min-width: 400px) and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+        z-index: 999;
+    }
+
+    #searchInput {
+        margin: 0px auto;
+    }
+
+    .pesq {
+        margin: 20px;
+    }
+
+    .menu-interact {
+        position: relative;
+        bottom: 100px;
+        left: 170px;
+        display: none;
+    }
+
+    .container-tshirts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 150px;
+
+    }
+
+    .container-pants {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 150px;
+
+    }
+
+    .container-sets {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item1-mobile {
+        display: block;
+    }
+
+    .products {
+        border-radius: 0;
+        width: 90%;
+        margin: 0 auto;
+        gap: 0px;
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    .product h3 {
+        font-size: 12px;
+    }
+
+    .product {
+        background-color: rgba(238, 238, 238, 0.055);
+        box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.116);
+        border-radius: 5px;
+        margin: 6px auto;
+        max-width: none;
+        padding: 5px;
+        width: 95%;
+       
+        
+     
+    }
+
+}

@@ -1,0 +1,94 @@
+#searchInput:focus {
+    border-color: #111;
+}
+
+.search-container {}
+
+#searchInput {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    width: 200px;
+    padding: 6px;
+    border-radius: px;
+    outline: none;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    margin-left: -430px;
+}
+
+
+
+.products {
+    display: flex;
+    flex-direction: column;
+    background-color: #363636;
+    gap: 6px;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.product {
+    display: flex;
+
+    align-items: center;
+    margin: 5px;
+    text-decoration: none;
+    /* transform: translateX(280px); */
+    width: 100%;
+    /* 🔹 garante que ocupe só o espaço do card */
+    max-width: 290px;
+    /* 🔹 limite de largura (ajuste como quiser) */
+
+}
+
+.product:hover {}
+
+.product img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-left: 6px;
+     font-family: "Roboto", sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.product p {
+   
+}
+
+.product a {}
+
+.product :hover {
+    color: rgb(211, 211, 211);
+}
+
+.no-results {}
+
+#searchInput::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: rgba(112, 112, 112, 0.685);
+}
+
+
+.botao-pesquisa {
+    padding: 8px 8px;
+    border: none;
+    background-color: #ff2727;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.pesq {
+    display: flex;
+
+}
