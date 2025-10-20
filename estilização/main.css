@@ -115,6 +115,13 @@
     margin: 50px;
 }
 
+.container-sneakers {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+}
+
 .avaliacao i {
     color: #ffe344;
     font-size: 13px;
@@ -224,4 +231,37 @@
     font-weight: 800;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.925);
+}
+
+/* footer */
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.name-cyk-footer {
+    font-family: "BBH Sans Bogle", sans-serif;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.conteudo-cyk p {
+      font-family: "Roboto", sans-serif;
+      font-size: 13px;
+}
+
+.social-media img {
+background-color: rgb(65, 65, 65);
+padding: 5px;
+border-radius: 50px;
+margin-left: 10px;
+}
+
+/* HOVERS */
+
+.social-media img:hover {
+    background-color: rgb(27, 27, 27);
+    transition: 0.2s ease-in-out;
 }
