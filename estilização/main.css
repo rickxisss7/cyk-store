@@ -37,9 +37,7 @@
 .item1 {
     display: flex;
     flex-direction: column;
-    align-items: cente;
     box-shadow: 0px 0px 2px 1px rgb(221, 221, 221);
-    
     border-radius: 5px;
     padding: 10px;
 }
@@ -56,20 +54,20 @@
     font-size: 14px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.884);
-    max-width: 260px;
+    /* max-width: 260px; */
     text-align: center;
     margin-top: 6px;
-    max-width: 170px;
-    width: 200px;
-    /* Largura máxima do nome */
+   
+    width: 150px;
+    
     white-space: nowrap;
-    /* Impede quebrar a linha */
+    
     overflow: hidden;
-    /* Esconde o texto que passa do limite */
+   
     text-overflow: ellipsis;
-    /* Adiciona "..." no final */
+    
     display: block;
-    /* Garante o comportamento esperado */
+
 }
 
 .item1 h5 {
