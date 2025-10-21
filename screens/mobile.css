@@ -237,4 +237,9 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .container-sneakers {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
