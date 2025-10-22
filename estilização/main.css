@@ -50,7 +50,7 @@
     width: 170px;
     height: 190px;
     border-radius: 5px;
-   
+
 }
 
 .item1 h3 {
@@ -122,6 +122,13 @@
     margin: 50px;
 }
 
+.container-caps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+}
+
 .avaliacao i {
     color: #ffe344;
     font-size: 13px;
@@ -142,7 +149,7 @@
 }
 
 .spc h1 {
-   margin: 0;
+    margin: 0;
 }
 
 .theme-product h1 {
@@ -248,15 +255,15 @@
 }
 
 .conteudo-cyk p {
-      font-family: "Roboto", sans-serif;
-      font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
 }
 
 .social-media img {
-background-color: rgb(65, 65, 65);
-padding: 5px;
-border-radius: 50px;
-margin-left: 10px;
+    background-color: rgb(65, 65, 65);
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 10px;
 }
 
 /* HOVERS */

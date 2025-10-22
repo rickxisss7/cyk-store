@@ -31,8 +31,7 @@
 
     }
 
-    .item1 img {
-    }
+    .item1 img {}
 
     .container-pants {
         display: grid;
@@ -40,6 +39,17 @@
 
 
     }
+
+    .container-caps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-sneakers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
     .theme-product {
         padding: 10px;
@@ -70,7 +80,7 @@
 
     .item1-mobile {
         display: block;
-         max-width: 170px;
+        max-width: 170px;
     }
 
     .item1-mobile a {
@@ -154,7 +164,7 @@
         margin: 0 auto;
     }
 
-     .item1-mobile a {
+    .item1-mobile a {
         text-decoration: none;
     }
 
@@ -164,6 +174,16 @@
     }
 
     .container-sets {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-caps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-sneakers {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -239,6 +259,11 @@
     }
 
     .container-sneakers {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-caps {
         display: flex;
         flex-wrap: wrap;
     }
