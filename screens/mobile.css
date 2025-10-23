@@ -168,6 +168,8 @@
 
     .item1 img {
         margin: 0 auto;
+         
+       
     }
 
     .item1-mobile a {
@@ -261,6 +263,8 @@
         flex-wrap: wrap; */
          display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 10px;
     }
 
     .container-pants {
@@ -268,6 +272,8 @@
         flex-wrap: wrap; */
          display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 10px;
     }
 
     .container-sets {
@@ -275,6 +281,8 @@
         flex-wrap: wrap; */
          display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 10px;
     }
 
     .container-sneakers {
@@ -282,6 +290,8 @@
         flex-wrap: wrap; */
          display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 10px;
     }
 
     .container-caps {
@@ -289,6 +299,8 @@
         flex-wrap: wrap; */
          display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 10px;
     }
 
     .anuncio-walk-academy {
@@ -299,4 +311,27 @@
         
     }
 
+    .item1 {
+       max-width: 150px;
+       
+    }
+
+    .item1 img {
+         width: 150px; 
+        
+    }
+
+    .item1-mobile {
+         max-width: 150px;
+    }
+
+    .item1-mobile img {
+        width: 150px; 
+    }
+
+    .item1-mobile h3 {
+        max-width: 150px;
+    }
+
 }
+

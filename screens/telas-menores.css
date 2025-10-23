@@ -1,0 +1,83 @@
+@media (min-width: 0px) and (max-width: 380px) {
+    .container-tshirts {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .container-pants {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .container-sets {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .container-sneakers {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .container-caps {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .anuncio-walk-academy {
+        font-size: 8px;
+        font-weight: 800;
+
+
+
+    }
+
+    .item1 {
+        max-width: 130px;
+
+    }
+
+    .item1 h3 {
+
+        max-width: 130px;
+
+    }
+
+    .item1 img {
+        width: 130px;
+
+    }
+
+    .item1-mobile {
+        max-width: 130px;
+    }
+
+    .item1-mobile img {
+        width: 130px;
+    }
+
+    .item1-mobile h3 {
+        max-width: 130px;
+    }
+
+}
