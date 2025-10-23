@@ -246,6 +246,9 @@
     background-color: black;
     color: white;
     padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .name-cyk-footer {
@@ -264,6 +267,48 @@
     padding: 5px;
     border-radius: 50px;
     margin-left: 10px;
+}
+
+.walk-academy {
+margin: 10px;
+ text-align: center;
+ font-family: "Roboto", sans-serif;
+}
+
+.walk-academy p {
+    font-size: 12px;
+   
+}
+
+.walk-academy a {
+    text-align: start;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.418);
+}
+
+.walk-academy img {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.anuncios {
+    text-decoration: none;
+    color: #00234d;
+}
+
+.anuncio-walk-academy {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+     font-family: "Roboto", sans-serif;
+     font-size: 13px;
+     font-weight: 600;
+     background-color: #dbdbdb;
+     justify-content: center;
+     text-transform: uppercase;
 }
 
 /* HOVERS */

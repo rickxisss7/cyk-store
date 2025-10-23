@@ -112,6 +112,12 @@
 
     }
 
+    .anuncio-walk-academy {
+        font-size: 10px;
+        font-weight: 800;
+        padding: 3px;
+    }
+
 }
 
 @media (min-width: 0px) and (max-width: 484px) {
@@ -217,6 +223,13 @@
 
     }
 
+    .anuncio-walk-academy {
+        font-size: 10px;
+        font-weight: 800;
+        padding: 3px;
+    }
+
+
 
     .theme-product {
         padding: 10px;
@@ -267,4 +280,13 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .anuncio-walk-academy {
+        font-size: 8px;
+        font-weight: 800;
+        
+       
+        
+    }
+
 }
