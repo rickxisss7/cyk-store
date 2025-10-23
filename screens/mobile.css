@@ -257,28 +257,38 @@
 
 @media (min-width: 0px) and (max-width: 424px) {
     .container-tshirts {
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+         display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .container-pants {
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+         display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .container-sets {
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+         display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .container-sneakers {
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+         display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .container-caps {
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+         display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .anuncio-walk-academy {
