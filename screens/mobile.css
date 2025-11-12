@@ -263,6 +263,12 @@
         display: none;
     }
 
+    .ccc a {
+    text-decoration: none;
+    color: white;
+}
+
+
 }
 
 @media (min-width: 0px) and (max-width: 424px) {
@@ -344,6 +350,12 @@
     .eem {
         display: none;
     }
+
+    .ccc a {
+    text-decoration: none;
+    color: white;
+}
+
 
 }
 
